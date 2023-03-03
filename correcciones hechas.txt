@@ -1,12 +1,17 @@
 
-cosas corregidas que ya ya estaban:
--uso de favicoms
+cosas corregidas que ya estaban:
 -uso de google fonts
 
 
 Correcciones hechas:
+-agregado un favicon
+-arreglado el acceso a traves de github pages.
 -todo lo que viene despues del header ahora es main, agregadas las distintas section, menos uso de div.
 -agregados atributos placeholder en los inputs del formulario de contacto con ejemplo de relleno.
 -Cambiado el color del boton del modo claro/ oscuro y de los inputs del form para que el texto dentro sea mas leible.
 -agregadas validaciones en el formulario: es obligatorio rellenar los campos, usar @ en el email y poner numeros en el telefono. 
  -agregado un back to top con funcion JS 
+-cambiado el formato de la imagen "imagenppal" en el banner para que su comportamiento se mantenga al cambiar el tamano del escritorio.
+-cambiado el color de fondo de liso a gradiente.
+-el nav-bar ahora queda fijo para facilidad en la navegacion.
+
