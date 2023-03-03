@@ -11,7 +11,9 @@
 }
 
 
-
+.titulo{
+	font-size:50px;
+}
 
 body{
 	background-color: #c0c0c0;
@@ -32,12 +34,6 @@ header {
 }
 
 
-/* li, a, button, .name {
-	font-weight: 500;
-	font-size: 16px;
-	text-decoration: none;
-
-} */
 
 .logo{
 	cursor: pointer;
@@ -85,7 +81,11 @@ button:hover {
 	background-color: rgba(0,136, 169, 0.8);
 	
 }
-
+.banner_perfil{
+	position: relative;
+	top: 0;
+	left: 0;
+}
 img.imagenfondo {
     width: 1500px;
     height: 300px;
@@ -98,32 +98,26 @@ img.imagenfondo {
 	left: 0;
    object-fit: cover;  
 }
-
 img.fotoppal{
+	position: absolute;
+	top: 50px;
+	left: 30px;
 	border: 1px solid rgb(0, 0, 0);
 	border-radius: 10px;
 	padding: 5px;
-	width: 250px;
-	height: auto;
-	position: relative;
 	transition: all 0.3s ease 0s;
-	position: absolute;
-	bottom: 250px;
-	left: 20px;
+	width:200px;
 }
 
 img.fotoppal:hover{
 	border: 1px solid rgb(0, 0, 0);
 	border-radius: 10px;
 	padding: 5px;
-	width: 265px;
-	height: auto;
-	position: relative;
- 	left: 25px;
-	bottom: 255px;
-	transition: all 0.3s ease 0s;
+	width: 220px;
 	position: absolute;
-}
+	transition: all 0.3s ease 0s;
+	
+} 
 
 .input-form {
     background-color:  rgb(106, 162, 176);;
