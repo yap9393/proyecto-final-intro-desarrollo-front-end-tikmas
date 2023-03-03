@@ -1,0 +1,12 @@
+
+cosas corregidas que ya ya estaban:
+-usar favicoms
+-usar google fonts
+
+
+Correcciones hechas:
+-todo lo que viene despues del header ahora es main, agregadas las distintas section, menos uso de div.
+-agregados atributos placeholder en los inputs del formulario de contacto con ejemplo de relleno.
+-Cambiado el color del boton del modo claro/ oscuro y de los inputs del form para que el texto dentro sea mas leible.
+-agregadas validaciones en el formulario: es obligatorio rellenar los campos, usar @ en el email y poner numeros en el telefono. 
+ -agregado un back to top con funcion JS 

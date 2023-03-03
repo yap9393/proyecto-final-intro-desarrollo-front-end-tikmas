@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Zen+Dots&display=swap');
+
+.modoClaroOscuro {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: "Montserrat", sans-serif;
+	background-color: #24252A;
+	color: #edf0f1 ;
+	text-decoration: none ;
+}
+
+
+
+
+body{
+	background-color: #c0c0c0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #000000 ;
+	text-decoration: none ;
+}
+
+header {
+	
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding: 30px 10%; 
+}
+
+
+/* li, a, button, .name {
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+
+} */
+
+.logo{
+	cursor: pointer;
+}
+
+.nav__links{
+	list-style: none;
+	text-decoration: none;
+}
+
+.nav__links li{
+	display: inline-block;
+	padding: 0px 20px;
+	text-decoration: none;
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+}
+
+.nav__links li a:hover {
+	color: #0088A9;
+	text-decoration: none;
+}
+
+.volverArriba{
+	margin-left: auto; 
+	float: right;
+	margin-right: 10%;
+	margin-bottom: 1%;
+	
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(106, 162, 176, 1);
+	border:none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(0,136, 169, 0.8);
+	
+}
+
+img.imagenfondo {
+    width: 1500px;
+    height: 300px;
+	filter: blur(5px);
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+   object-fit: cover;  
+}
+
+img.fotoppal{
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 10px;
+	padding: 5px;
+	width: 250px;
+	height: auto;
+	position: relative;
+	transition: all 0.3s ease 0s;
+	position: absolute;
+	bottom: 250px;
+	left: 20px;
+}
+
+img.fotoppal:hover{
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 10px;
+	padding: 5px;
+	width: 265px;
+	height: auto;
+	position: relative;
+ 	left: 25px;
+	bottom: 255px;
+	transition: all 0.3s ease 0s;
+	position: absolute;
+}
+
+.input-form {
+    background-color:  rgb(106, 162, 176);;
+    color: rgb(0, 0, 0);
+    width: 400px;
+}
+
+.input-form:focus{
+    background-color: rgba(106, 162, 176, 0.8);
+}
+
+.input-form-coments{
+    background-color:  rgb(106, 162, 176);;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 100px;
+    overflow: auto;
+}
+
+.input-form-coments:focus{
+    background-color: rgba(106, 162, 176, 0.8);
+}
+
+.resto-pagina{
+	display:flex;
+	justify-content:space-between;
+	position: relative;
+	margin: auto;
+	width: 1000px;
+}
+
+.resto-pagina, .listasvarias, .formulario{
+	padding: 40px;
+}
+
+.boton-modo-claro{
+	margin: auto;
+}
+
+::placeholder{
+	color:#454545
+}
+
