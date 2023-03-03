@@ -1,7 +1,7 @@
 
 cosas corregidas que ya ya estaban:
--usar favicoms
--usar google fonts
+-uso de favicoms
+-uso de google fonts
 
 
 Correcciones hechas:
