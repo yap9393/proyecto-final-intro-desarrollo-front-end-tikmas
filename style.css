@@ -173,3 +173,10 @@ footer{
 	font-style: italic;
 	text-align: center;
 }
+.imprimir{
+	margin-left: 10%;
+}
+.pieDePagina{
+	text-align: center;
+	padding: 5px;
+}
