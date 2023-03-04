@@ -172,11 +172,8 @@ footer{
 	font-size: small;
 	font-style: italic;
 	text-align: center;
+	padding: 5px;
 }
 .imprimir{
 	margin-left: 10%;
-}
-.pieDePagina{
-	text-align: center;
-	padding: 5px;
 }

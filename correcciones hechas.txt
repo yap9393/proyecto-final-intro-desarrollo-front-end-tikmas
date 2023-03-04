@@ -14,4 +14,6 @@ Correcciones hechas:
 -cambiado el formato de la imagen "imagenppal" en el banner para que su comportamiento se mantenga al cambiar el tamano del escritorio.
 -cambiado el color de fondo de liso a gradiente.
 -el nav-bar ahora queda fijo para facilidad en la navegacion.
+-agregada funcion para descargar como pdf/imprimir. Solo se puede imprimir en modo claro, sino sale alerta.
+-agregado un footer con nombre, email y una funcion js con fecha actual.
 
